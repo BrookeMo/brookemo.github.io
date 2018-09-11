@@ -44,8 +44,12 @@
   font-style: normal;
 
 }
+html {
+  height: 100%
+}
 body {
-    background-color: #336A5E;
+    /* background-color: #336A5E; */
+    background-image: radial-gradient(circle, #2B685A, #2E7666, #327B6A);
 }
 .content {
   position: absolute; 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="350px" viewBox="0 0 272 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>My Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.5%" y="-2.1%" width="107.3%" height="105.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="3.19499639%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#51A391" offset="0%"></stop>
+            <stop stop-color="#20423A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-58.000000, -618.000000)">
+            <g id="My-Location" filter="url(#filter-1)" transform="translate(64.000000, 622.000000)">
+                <g id="Utah" transform="translate(1.000000, 0.000000)" fill="url(#linearGradient-2)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="5">
+                    <polygon id="Path-2" points="0.102156989 0.89246908 153.749237 0.89246908 153.749237 71.6475147 257.879917 71.6475147 257.879917 336.843527 0.102156989 336.843527"></polygon>
+                </g>
+                <text id="Salt-Lake-City,-Utah" font-family="AustinWorth, Austin Worth" font-size="24" font-weight="normal" letter-spacing="-0.4030304" fill="#FFFFFF">
+                    <tspan x="32.0949936" y="169">Salt Lake City, </tspan>
+                    <tspan x="93.6576233" y="217">Utah</tspan>
+                </text>
+                <g id="Location" transform="translate(79.000000, 40.000000)" fill="#FFFFFF">
+                    <path d="M10.9722819,12.7019826 L15.1629064,16.9733655 L10.9722819,21.2447485 C10.8281254,21.3916833 10.8238937,21.6255984 10.9681381,21.7726225 L12.5492791,23.3842345 C12.6911471,23.5288365 12.9222272,23.5277495 13.0671727,23.3800106 L17.2577978,19.1086276 L21.4484222,23.3800106 C21.5925788,23.5269453 21.8220716,23.5312586 21.9663159,23.3842345 L23.5474575,21.7726225 C23.6893255,21.6280205 23.6882592,21.3924875 23.543313,21.2447485 L19.3526886,16.9733655 L23.543313,12.7019826 C23.6874702,12.5550478 23.6917018,12.3211327 23.5474575,12.1741086 L21.9663159,10.5624966 C21.8244431,10.4178946 21.5933666,10.4189831 21.4484222,10.5667205 L17.2577978,14.8381035 L13.0671727,10.5667205 C12.9230162,10.4197857 12.6935234,10.4154725 12.5492791,10.5624966 L10.9681381,12.1741086 C10.82627,12.3187106 10.8273364,12.5542436 10.9722819,12.7019826 L10.9722819,12.7019826 Z M-1.92948519,16.9733655 C-1.92948519,16.9733655 3.59507313,10.464816 5.44607893,7.951217 C8.13862127,4.2948416 12.4272025,1.92948519 17.2577978,1.92948519 C24.1257734,1.92948519 29.8981124,6.71086032 31.5455637,13.1859823 C31.8534289,14.3960114 32.0172459,15.665189 32.0172459,16.9733655 C32.0172459,25.2818716 25.4092162,32.0172459 17.2577978,32.0172459 C12.4565179,32.0172459 8.19069321,29.6805116 5.49527535,26.0619391 C3.61452168,23.5370456 -1.92948519,16.9733655 -1.92948519,16.9733655 L-1.92948519,16.9733655 Z" id="cancel" transform="translate(15.043880, 16.973366) rotate(-90.000000) translate(-15.043880, -16.973366) "></path>
+                    <ellipse id="Oval-2" fill-rule="nonzero" cx="15" cy="15.5" rx="11" ry="8.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

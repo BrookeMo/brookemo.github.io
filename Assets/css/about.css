@@ -1,0 +1,132 @@
+.aboutcontent {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    grid-template-rows: 200px, 1fr;
+}
+.aboutmetext {
+    font-family: "montserratregular";
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-column: span 12;
+    grid-row-start: 1;
+}
+#location {
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    float: left;
+    grid-column: span 3;
+    grid-row-start: 2;
+}
+h6 {
+    font-family: 'latomedium';
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+.describe {
+    font-family: 'latomedium';
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    font-size: 15px;
+    width: 50%;
+}
+.circle {
+    height: 295px;
+    width: 295px;
+    border-radius: 50%;
+    border: white solid 5px;
+    position: relative;
+    grid-column: span 3;
+}
+#responsive,#dynamic,#clean {
+  grid-row-start: 2;
+  grid-column-end: span 3;
+}
+#responsive {
+    background-color: #51A391;
+    grid-column-start: 5; 
+    z-index: 1;
+}
+#dynamic {
+    background-color: #33675C;
+    grid-column-start: 7;
+    z-index: 0;
+}
+#clean {
+    background-color: #20423A;
+    grid-column-start: 9;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 972px) {
+    .content {
+        position: absolute; 
+        top: 47%; 
+        transform: translateY(-50%); 
+        width: 100%;
+      }
+    .aboutcontent {
+        grid-template-columns: repeat(6, 2fr);
+        grid-gap: 20px;
+    }
+    .aboutmetext {
+        grid-column: span 4;
+        font-size: 18px;
+    }
+    #location {
+        grid-column: span 2;
+        margin: 0;
+        width: 4fr;
+        grid-row-start: 1;
+        grid-column-start: 5
+    }
+    .circle {
+        grid-column: span 2;
+        width: 100%;
+        height: 242px;
+    }
+    #responsive,#dynamic,#clean {
+        grid-column-end: span 2;
+      }
+    #responsive {
+        grid-column-start: 1; 
+        z-index: 1;
+    }
+    #dynamic {
+        grid-column-start: 3;
+        z-index: 0;
+    }
+    #clean {
+        grid-column-start: 5;
+        z-index: -1;
+    }
+    h6 {
+        top: 0;
+    }
+    .describe {
+        top: 120px;
+    }
+  }
+  @media only screen and (max-width: 670px) {
+    .aboutmetext {
+        grid-column: span 6;
+        font-size: 18px;
+    }
+    .circle {
+        grid-column: span 1;
+    }
+    .describe {
+        display: none;
+    }
+  }
