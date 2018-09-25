@@ -126,6 +126,7 @@ h6 {
         grid-column: span 2;
         height: 75px;
         width: 75px;
+        margin: auto;
     }
     #responsive {
         grid-column-start: 1;
