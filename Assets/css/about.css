@@ -70,12 +70,6 @@ h6 {
 }
 
 @media only screen and (max-width: 972px) {
-    .content {
-        position: absolute; 
-        top: 47%; 
-        transform: translateY(-50%); 
-        width: 100%;
-      }
     .aboutcontent {
         grid-template-columns: repeat(6, 2fr);
         grid-gap: 20px;
@@ -120,12 +114,13 @@ h6 {
   @media only screen and (max-width: 670px) {
     .aboutcontent {
         grid-template-columns: repeat(6, 2fr);
-        grid-gap: 20px;
+        grid-gap: 0px;
     }
     .aboutmetext {
         grid-column: span 6;
         font-size: 15px;
-        margin: auto;
+        margin: 0;
+        padding: 10px;
     }
     .circle {
         grid-column: span 2;
