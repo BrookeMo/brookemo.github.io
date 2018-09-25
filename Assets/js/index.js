@@ -13,8 +13,10 @@ $( document ).ready(function() {
 
     $(".circle").hover(function(){
         $(this).addClass("flip-vertical-left");
+        $(this).css("z-index", "3");
         }, function(){
         $(this).removeClass("flip-vertical-left");
+        $(this).css("z-index", "3");
     });
     $("#responsive").hover(function(){
         $(this).css("z-index", "3");

@@ -17,6 +17,17 @@
             <stop stop-color="#51A391" offset="0%"></stop>
             <stop stop-color="#20423A" offset="100%"></stop>
         </linearGradient>
+        <style type="text/css">
+            <![CDATA[
+                @font-face {
+                    font-family: 'Austin Worth';
+                    src: url('../fonts/austin_worth/austin_worth.eot');
+                    src: url('../fonts/austin_worth/austin_worth.svg#austin_worthregular') format('svg');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+            ]]>
+        </style>
     </defs>
     <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-58.000000, -618.000000)">
@@ -24,7 +35,7 @@
                 <g id="Utah" transform="translate(1.000000, 0.000000)" fill="url(#linearGradient-2)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="5">
                     <polygon id="Path-2" points="0.102156989 0.89246908 153.749237 0.89246908 153.749237 71.6475147 257.879917 71.6475147 257.879917 336.843527 0.102156989 336.843527"></polygon>
                 </g>
-                <text id="Salt-Lake-City,-Utah" font-family="AustinWorth, Austin Worth, 'austin_worthregular', cursive" font-size="24" font-weight="normal" letter-spacing="-0.4030304" fill="#FFFFFF">
+                <text id="Salt-Lake-City,-Utah" font-family="Austin Worth" font-size="24" font-weight="normal" letter-spacing="-0.4030304" fill="#FFFFFF">
                     <tspan x="32.0949936" y="169">Salt Lake City, </tspan>
                     <tspan x="93.6576233" y="217">Utah</tspan>
                 </text>
