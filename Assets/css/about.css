@@ -124,7 +124,7 @@ h6 {
     }
     .aboutmetext {
         grid-column: span 6;
-        font-size: 18px;
+        font-size: 15px;
         margin: auto;
     }
     .circle {
