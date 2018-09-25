@@ -6,6 +6,8 @@ $( document ).ready(function() {
     $("#profilepic").removeClass("scale-in-center");
     $("#tagline").removeClass("swing-in-top-fwd");
     $(".link").removeClass("rotate-in-center");
+    $(".circle").removeClass("swirl-in-fwd");
+    $("#location").removeClass("flip-in-hor-bottom");
 
     }, 1000);
 
