@@ -117,8 +117,11 @@ ul {
         grid-column-start: 2;
         grid-column-end: 6;
     }
-    #developmentlist {
+   ul {
         margin-top: 0;
+    }
+    #developmentlist {
+        margin-top: 0
     }
     .cardtitle {
         margin-top: 10px;
