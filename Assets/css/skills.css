@@ -95,9 +95,6 @@ ul {
     }
 }
 @media only screen and (max-width: 670px) {
-    .content {
-        transform: translateY(-45%);
-    }
     .skillscontent {
         grid-gap: 5px;
         grid-column: span 4;
