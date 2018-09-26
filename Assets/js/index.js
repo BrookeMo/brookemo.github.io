@@ -14,6 +14,7 @@ $( document ).ready(function() {
     $("#othercard").removeClass("bounce-in-bottom");
     $(".iconcircle").removeClass("slit-in-vertical");
     $(".icontitle").removeClass("puff-in-center");
+    $("#backbutton").removeClass("fade-in-fwrd");
 
     }, 1000);
 
