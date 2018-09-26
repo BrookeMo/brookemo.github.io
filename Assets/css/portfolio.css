@@ -160,16 +160,16 @@
         grid-column-end: 4;
     }
     .description {
-        font-size: 8px;
+        font-size: 10px;
     }
     .descriptiontext {
         margin-top: 2px;
     }
     .descriptionsite {
-        padding: 5px;
+        padding: 4px;
     }
     .descriptioncode {
-        padding: 5px;
+        padding: 4px;
     }
 }
 
