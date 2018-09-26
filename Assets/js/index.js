@@ -9,6 +9,9 @@ $( document ).ready(function() {
     $(".circle").removeClass("swirl-in-fwd");
     $("#location").removeClass("flip-in-hor-bottom");
     $(".portfoliodiv").removeClass("swing-in-top-fwd");
+    $("#designcard").removeClass("bounce-in-right");
+    $("#developmentcard").removeClass("bounce-in-left");
+    $("#othercard").removeClass("bounce-in-bottom");
 
     }, 1000);
 
@@ -73,5 +76,10 @@ $( document ).ready(function() {
     }, function(){
         $("#memorydescription").removeClass("fade-in-fwrd");
         $("#memorydescription").css("display", "none");
+    });
+    $(".skillscard").hover(function(){
+        $(this).addClass("jello-vertical");
+    }, function(){
+        $(this).removeClass("jello-vertical");
     });
 });
