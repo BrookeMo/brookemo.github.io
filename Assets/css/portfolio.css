@@ -136,8 +136,8 @@
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 40px;
         grid-row-gap: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .portfoliodiv {
         grid-column: span 2;
@@ -163,7 +163,7 @@
         grid-column-end: 4;
     }
     .description {
-        font-size: 10px;
+        font-size: 7px;
     }
     .descriptiontext {
         margin-top: 2px;
