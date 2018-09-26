@@ -12,6 +12,8 @@ $( document ).ready(function() {
     $("#designcard").removeClass("bounce-in-right");
     $("#developmentcard").removeClass("bounce-in-left");
     $("#othercard").removeClass("bounce-in-bottom");
+    $(".iconcircle").removeClass("slit-in-vertical");
+    $(".icontitle").removeClass("puff-in-center");
 
     }, 1000);
 
@@ -81,5 +83,10 @@ $( document ).ready(function() {
         $(this).addClass("jello-vertical");
     }, function(){
         $(this).removeClass("jello-vertical");
+    });
+    $(".iconcircle").hover(function(){
+        $(this).addClass("pulsate-fwd");
+    }, function(){
+        $(this).removeClass("pulsate-fwd");
     });
 });
