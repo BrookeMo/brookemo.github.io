@@ -4,8 +4,8 @@ $( document ).ready(function() {
 
     $("#name").removeClass("tracking-in-expand");
     $("#profilepic").removeClass("scale-in-center");
-    $("#tagline").removeClass("swing-in-top-fwd");
-    $(".link").removeClass("rotate-in-center");
+    $("#tagline").removeClass("tracking-in-expand");
+    $(".link").removeClass("slide-in-bottom");
     $(".circle").removeClass("swirl-in-fwd");
     $("#location").removeClass("flip-in-hor-bottom");
     $(".portfoliodiv").removeClass("swing-in-top-fwd");
