@@ -157,6 +157,54 @@ h1 {
   text-align: center;
   margin-top: 0;
 }
+#resume {
+  height: 600px;
+  margin: auto;
+  display: block;
+}
+.download {
+  height: 49px;
+  line-height: 49px;
+  border-radius: 24.5px;
+  border: solid white 2px;
+  width: 464px;
+  margin: auto;
+  margin-top: 25px;
+}
+.downloadtext {
+  font-family: 'montserratregular';
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  text-decoration: none !important;
+}
+
+element.style {
+}
+a .downloadtext {
+    font-family: 'montserratregular';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: none !important;
+}
+.download {
+    height: 49px;
+    line-height: 49px;
+    border-radius: 24.5px;
+    border: solid white 2px;
+    width: 464px;
+    margin: auto;
+    margin-top: 25px;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.downloadtext:visited {
+  text-decoration: none !important;
+}
 @media only screen and (max-width: 972px) {
   h1 {
     margin-top: 60px;
@@ -226,6 +274,15 @@ h1 {
     top: 10px;
     left: 10px;
     font-size: 16px;
+  }
+  #resume {
+    height: 300px;
+  }
+  .download {
+    width: 231px;
+  }
+  a .downloadtext {
+    font-size: 18px;
   }
 }
 
