@@ -91,7 +91,6 @@ h1 {
   -webkit-animation: wobble-hor-bottom 1.0s both;
   animation: wobble-hor-bottom 1.0s both;
 }
-
 #profilepic {
     border-radius: 50%;
     display: block;
@@ -178,9 +177,6 @@ h1 {
   text-align: center;
   margin-top: 0;
   text-decoration: none !important;
-}
-
-element.style {
 }
 a .downloadtext {
     font-family: 'montserratregular';
@@ -299,7 +295,7 @@ a:-webkit-any-link {
 
 
 .tracking-in-expand {
-	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .scale-in-center {
@@ -319,8 +315,8 @@ a:-webkit-any-link {
 	        animation: fade-in-fwrd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .slide-in-bottom {
-	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-bottom 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .wobble-hor-bottom {
 	-webkit-animation: wobble-hor-bottom 1.8s both;
