@@ -165,8 +165,8 @@ h6 {
 	        animation: flip-vertical-left 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 .swirl-in-fwd {
-	-webkit-animation: swirl-in-fwd 0.6s ease-out both;
-	        animation: swirl-in-fwd 0.6s ease-out both;
+	-webkit-animation: swirl-in-fwd 0.9s ease-in-out both;
+	        animation: swirl-in-fwd 0.9s ease-in-out both;
 }
 .swing-in-top-fwd {
 	-webkit-animation: swing-in-top-fwd 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;

@@ -18,6 +18,7 @@ $( document ).ready(function() {
     $(".iconcircle").removeClass("slit-in-vertical");
     $(".icontitle").removeClass("puff-in-center");
     $("#backbutton").removeClass("fade-in-fwrd");
+    $("#resume").removeClass("scale-in-center");
 
     }, 1500);
 
