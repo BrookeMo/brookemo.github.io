@@ -160,6 +160,7 @@ h1 {
   height: 475px;
   margin: auto;
   display: block;
+  border: solid #20423A 5px;
 }
 .downloadtext {
   font-family: 'montserratregular';
