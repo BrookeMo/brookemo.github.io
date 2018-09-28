@@ -1,11 +1,14 @@
 $( document ).ready(function() {
-
     setTimeout(function(){
 
     $("#name").removeClass("tracking-in-expand");
     $("#profilepic").removeClass("scale-in-center");
     $("#tagline").removeClass("tracking-in-expand");
-    $(".link").removeClass("slide-in-bottom");
+    $("#aboutlink").removeClass("slide-in-bottom");
+    $("#portfoliolink").removeClass("slide-in-bottom2");
+    $("#resumelink").removeClass("slide-in-bottom3");
+    $("#skillslink").removeClass("slide-in-bottom4");
+    $("#contactlink").removeClass("slide-in-bottom5");
     $(".circle").removeClass("swirl-in-fwd");
     $("#location").removeClass("flip-in-hor-bottom");
     $(".portfoliodiv").removeClass("swing-in-top-fwd");
@@ -16,7 +19,7 @@ $( document ).ready(function() {
     $(".icontitle").removeClass("puff-in-center");
     $("#backbutton").removeClass("fade-in-fwrd");
 
-    }, 1000);
+    }, 1500);
 
     $(".circle").hover(function(){
         $(this).addClass("flip-vertical-left");
