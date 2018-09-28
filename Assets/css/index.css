@@ -157,18 +157,9 @@ h1 {
   margin-top: 0;
 }
 #resume {
-  height: 600px;
+  height: 475px;
   margin: auto;
   display: block;
-}
-.download {
-  height: 49px;
-  line-height: 49px;
-  border-radius: 24.5px;
-  border: solid white 2px;
-  width: 464px;
-  margin: auto;
-  margin-top: 25px;
 }
 .downloadtext {
   font-family: 'montserratregular';
@@ -187,13 +178,14 @@ a .downloadtext {
     text-decoration: none !important;
 }
 .download {
-    height: 49px;
-    line-height: 49px;
-    border-radius: 24.5px;
-    border: solid white 2px;
-    width: 464px;
-    margin: auto;
-    margin-top: 25px;
+  height: 49px;
+  line-height: 49px;
+  border-radius: 24.5px;
+  border: solid white 2px;
+  width: 464px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 a:-webkit-any-link {
   text-decoration: none;
@@ -230,6 +222,8 @@ a:-webkit-any-link {
     top: 315px;
     right: 10px;
   }
+  .download {
+    margin-bottom: 0px;
 }
 @media only screen and (max-width: 670px) {
   h1 {
