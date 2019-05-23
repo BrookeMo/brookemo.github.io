@@ -5,16 +5,19 @@
   border-top: 4px solid black;
   border-bottom: 4px solid black;
 }
+
 .aboutcontent {
   text-align: center;
   flex: 70%;
   border-right: 4px solid black;
 }
+
 #abouttext {
   font-family: "Avenir Next";
   font-size: 20px;
   margin: 40px 90px;
 }
+
 .picture {
   flex: 30%;
   padding: 20px;
@@ -59,17 +62,21 @@
   font-size: 18px;
   margin: 0;
 }
+
 #skillsleft {
   text-align: left;
   margin-left: 90px;
 }
+
 #skillsright {
   text-align: right;
   margin-right: 90px;
 }
+
 #titleright {
   text-align: right;
 }
+
 .skillscontent {
   display: flex;
   justify-content: center;
@@ -77,4 +84,102 @@
 
 .skillscolumn {
   flex: 50%;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1060px) {
+  .skillscontent {
+    margin-bottom: 30px;
+  }
+
+  .picture {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #abouttext {
+    margin: 40px;
+  }
+  #skillsleft {
+    margin-left: 20px;
+  }
+  #skillsright {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #abouttext {
+    font-size: 16px;
+  }
+  .skillstitle {
+    letter-spacing: 5px;
+    font-size: 12px;
+  }
+  .skills {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  #profile {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .name {
+    font-size: 56px;
+  }
+  #abouttext {
+    font-size: 12px;
+  }
+  .h2title {
+    font-size: 24px;
+  }
+  .skillstitle {
+    font-size: 10px;
+  }
+  .skills {
+    font-size: 8px; 
+  }
+}
+@media only screen and (max-width: 425px) {
+  #profile {
+    width: 150px;
+    height: 150px;
+  }
+  #abouttext {
+    margin: 20px;
+    font-size: 10px;
+  }
+  .skillstitle {
+    letter-spacing: 3px;
+  }
+  #skillsright {
+    margin-right: 20px;
+  }
+  .picture {
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #profile {
+    width: 100px;
+    height: 100px;
+  }
+  .picture {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .h2title {
+    font-size: 16px;
+  }
+  .picture {
+    padding-top: 60px;
+  }
+  .skillstitle {
+    display: none;
+  }
 }
