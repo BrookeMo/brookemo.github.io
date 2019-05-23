@@ -71,25 +71,30 @@ html {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
 #starwarsplanets {
     display: flex;
     flex-direction: row;
     margin: 0px 80px;
 }
+
 .swtext {
     flex: 90%;
     margin-left: 30px;
 }
+
 #weddingsite {
     display: flex;
     flex-direction: row;
     margin: 0px 80px;
 }
+
 .weddingtext {
     flex: 90%;
     margin-right: 30px;
     text-align: right;
 }
+
 .pasttext {
     font-family: 'frontageregular';
     margin-bottom: 2px;
@@ -112,4 +117,110 @@ html {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 984px) {
+    .pasttext {
+        font-size: 12px;
+    }
+
+    .pastrole {
+        font-size: 12px;
+    }
+
+    .pastlink {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .pasttext {
+        margin-top: 0;
+    }
+
+    .pasttitle {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .pastimages {
+        width: 200px;
+        height: 130px;
+    }
+
+    .pasttext {
+        font-size: 8px;
+    }
+
+    .pastrole {
+        font-size: 8px;
+    }
+
+    .pastlink {
+        font-size: 8px;
+    }
+
+    .h3title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .pastimages {
+        width: 150px;
+        height: 97.5px;
+    }
+    .projectdescription {
+        font-size: 12px;
+    }
+    .pasttext {
+        font-size: 7px;
+    }
+
+    .pastrole {
+        font-size: 7px;
+    }
+
+    .pastlink {
+        font-size: 7px;
+    }
+    .pasttitle {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .projectdescription {
+        font-size: 10px;
+    }
+    .h2title {
+        font-size: 20px;
+    }
+    .swtext {
+        margin-left: 10px;
+    }
+    #starwarsplanets {
+        margin: 0px 20px;
+    }
+    #weddingsite {
+        margin: 0px 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .pasttext {
+        font-size: 6px;
+    }
+
+    .pastrole {
+        font-size: 6px;
+    }
+
+    .pastlink {
+        font-size: 6px;
+    }
+    .weddingtext {
+        margin-right: 10px;
+    }
 }
