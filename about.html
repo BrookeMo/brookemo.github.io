@@ -13,55 +13,39 @@
 </head>
 
 <body>
-        <div class="content">
-            <div class="title">
-                <h1 id="name" class="tracking-in-expand">{About Me}</h1>
+    <div class="title">
+        <h1 class="name">About Me</h1>
+    </div>
+    <div class="aboutpage">
+        <div class="aboutcontent">
+            <div id="abouttext">After finishing my general studies, I felt unsure about
+                what I wanted to study further. I came upon online coding courses, and after giving
+                them a try, quickly fell in love. I attended the University of Utah's
+                Fullstack Development Bootcamp, graduated, and am now interning at a software company doing frontend
+                development and QA.
             </div>
-            <div class="aboutcontent">
-                <p class="aboutmetext swing-in-top-fwd">After tip-toeing around computer programming for a couple of years,
-                    I finally decided to take the plunge, and immersed myself in development, taking a 24
-                    week intensive bootcamp and learning the newest languages and technologies. I've
-                    developed a passion for making user-friendly, clean, and fun applications. I'm consistently
-                    looking for new things to try and fun ideas to implement.</p>
-                <img class="flip-in-hor-bottom" id="location" src="./Assets/images/My Location.png" />
-                <div class="circle swirl-in-fwd" id="responsive">
-                    <h6>Responsive</h6>
-                    <p class="describe">Layouts that can work on devices at any size.</p>
+            <h2 class="h2title">My Skills</h2>
+            <div class="skillscontent">
+                <div id="skillsleft" class="skillscolumn">
+                    <p class="skillstitle">MORE EXPERIENCE</p>
+                    <p class="skills">Javascript • jQuery • CSS</p>
+                    <p class="skills">HTML5 • React.js • node.js</p>
                 </div>
-                <div class="circle swirl-in-fwd" id="dynamic">
-                    <h6>Dynamic</h6>
-                    <p class="describe">Interactive, fast websites. No more static sites.</p>
-                </div>
-                <div class="circle swirl-in-fwd" id="clean">
-                    <h6>Clean</h6>
-                    <p class="describe">Clean, easy to read, commented code.</p>
+                <div id="skillsright" class="skillscolumn">
+                    <p id="titleright" class="skillstitle">NEWER SKILLS</p>
+                    <p class="skills">Less • mySQL</p>
+                    <p class="skills">Angular.js • Java</p>
                 </div>
             </div>
         </div>
-        <a id="backbutton" class="fade-in-fwrd" href="https://brookemo.github.io/">
-            &lt; Go Back
-        </a>
-        <p class="background fade-in-fwd" id="dev">
-            var developer = {<br>
-            &emsp;type: "frontend",<br>
-            &emsp;skills: ["html",<br>
-            &emsp;&emsp;&emsp;&emsp;"css",<br>
-            &emsp;&emsp;&emsp;&emsp;"javscript",<br>
-            &emsp;&emsp;&emsp;&emsp;"jquery",<br>
-            &emsp;&emsp;&emsp;&emsp;"react.js"]<br>
-            &emsp;school: "U of U";<br>
-            }
-        </p>
-        <p class="background fade-in-fwd" id="design">
-            var designer = {<br>
-            &emsp;skills: &emsp;["Sketch",<br>
-            &emsp;&emsp;&emsp;&emsp;&emsp;"Zeplin",<br>
-            &emsp;&emsp;&emsp;&emsp;&emsp;"Abstract"]<br>
-            &emsp;age:&emsp;&emsp;23,<br>
-            &emsp;location: "Salt Lake City, UT",<br>
-            }
-            <script src="./Assets/js/index.js"></script>
-        </p>
+    <div class="picture">
+        <img id="profile" src="Assets/images/ProfilePic.jpeg" />
+        <div class="location">
+            <p>Salt Lake City, Utah</p>
+        </div>
+    </div>
+</div>
+    <script src="./Assets/js/index.js"></script>
 </body>
 
 </html>

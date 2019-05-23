@@ -1,254 +1,116 @@
-.portfoliocontent {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-gap: 40px;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
-.portfoliodiv {
-    grid-column: span 4;
-    position: relative;
-}
-.portfolioimage {
-    width: 100%;
-    border-radius: 24.5px;
-}
-.description {
+
+.h2title {
+    font-family: 'frontageoutline';
+    font-weight: normal;
+    font-size: 30px;
     text-align: center;
-    color: white;
-    font-family: 'montserratregular';
-    position: absolute;
-    top: 0;
-    height: 98%;
-    width: 100%;
-    max-height: 100%;
-    max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 24.5px;
-    display: none;
+    margin-top: 30px;
 }
-.descriptiontext {
-    margin-top: 40px;
-    margin-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+.h3title {
+    font-family: 'beyond_infinity';
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
 }
-.descriptionsite {
-    color: white;
-    border-radius: 24.5px;
-    border: solid white 2px;
-    text-decoration: none;
-    padding: 10px;
+
+#workcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#planplus {
+    flex: 50%;
+    border-right: 2px solid black;
+}
+
+#kpifire {
+    flex: 50%;
+    border-left: 2px solid black;
+}
+
+.planplusimages {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.projectdescription {
+    text-align: center;
+    font-family: 'frontageregular';
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workcontent {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bottomcolumn {
+    padding-bottom: 10px;
+}
+
+.pastimages {
+    flex: 10%;
+    width: 245px;
+    height: 160px;
+}
+
+.pasttitle {
+    font-family: 'beyond_infinity';
+    font-size: 50px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#starwarsplanets {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 80px;
+}
+.swtext {
+    flex: 90%;
+    margin-left: 30px;
+}
+#weddingsite {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 80px;
+}
+.weddingtext {
+    flex: 90%;
+    margin-right: 30px;
+    text-align: right;
+}
+.pasttext {
+    font-family: 'frontageregular';
+    margin-bottom: 2px;
+}
+
+.pastrole {
+    font-family: 'frontagebold';
+    margin-top: 2px;
     margin-bottom: 5px;
 }
-.descriptionsite:hover {
-    color: #327B6A;
-    border-color: #327B6A;
+
+.pastlink {
+    font-family: 'frontageregular';
+    color: black;
 }
-.descriptioncode {
-    color: white;
-    border-radius: 24.5px;
-    border: solid white 2px;
-    text-decoration: none;
-    padding: 10px;
+
+#space {
+    font-family: 'beyond_infinity';
+    font-size: 50px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
-.descriptioncode:hover {
-    color: #51A391;
-    border-color: #51A391;
-}
-#firstproject {
-    grid-row-start: 1;
-    grid-column-start: 5;
-    grid-column-end: 9;
-}
-#secondproject {
-    grid-row-start: 1;
-    grid-column-start: 9;
-    grid-column-end: 13;
-}
-#thirdproject {
-    grid-row-start: 2;
-    grid-column-start: 5;
-    grid-column-end: 9;
-}
-#fourthproject {
-    grid-row-start: 2;
-    grid-column-start: 9;
-    grid-column-end: 13;
-}
-
-@media only screen and (max-width: 1200px) {
-    .descriptiontext {
-        margin-top: 10px;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .description {
-        font-size: 10px;
-    }
-    .descriptiontext {
-        margin-top: 5px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .portfoliocontent {
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 40px;
-        margin-left:40px;
-        margin-right: 40px;
-    }
-    .portfoliodiv {
-        grid-column: span 2;
-    }
-    #firstproject {
-        grid-row-start: 1;
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    #secondproject {
-        grid-row-start: 1;
-        grid-column-start: 3;
-        grid-column-end: 5;
-    }
-    #thirdproject {
-        grid-row-start: 2;
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    #fourthproject {
-        grid-row-start: 2;
-        grid-column-start: 3;
-        grid-column-end: 5;
-    }
-    .description {
-        font-size: 20px;
-    }
-    .descriptiontext {
-        margin-top: 10px;
-    }
-}
-@media only screen and (max-width: 425px) {
-    .portfoliocontent {
-        grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 40px;
-        grid-row-gap: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .portfoliodiv {
-        grid-column: span 2;
-    }
-    #firstproject {
-        grid-row-start: 1;
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-    #secondproject {
-        grid-row-start: 2;
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-    #thirdproject {
-        grid-row-start: 3;
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-    #fourthproject {
-        grid-row-start: 4;
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-    .description {
-        font-size: 10px;
-    }
-    .descriptiontext {
-        margin-top: 2px;
-    }
-    .descriptionsite {
-        padding: 4px;
-    }
-    .descriptioncode {
-        padding: 4px;
-    }
-}
-
-.fade-in-fwrd {
-	-webkit-animation: fade-in-fwrd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwrd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-.swing-in-top-fwd {
-	-webkit-animation: swing-in-top-fwd 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: swing-in-top-fwd 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-}
-/* ----------------------------------------------
- * Generated by Animista on 2018-9-25 19:54:8
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation fade-in-fwd
- * ----------------------------------------
- */
- @-webkit-keyframes fade-in-fwrd {
-    0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-in-fwrd {
-    0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
-  /**
- * ----------------------------------------
- * animation swing-in-top-fwd
- * ----------------------------------------
- */
-@-webkit-keyframes swing-in-top-fwd {
-    0% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
-  @keyframes swing-in-top-fwd {
-    0% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
