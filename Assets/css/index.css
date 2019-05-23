@@ -56,10 +56,10 @@
     url('../fonts/KG/kgbeneathyourbeautiful-webfont.svg#kg_beneath_your_beautifulRg') format('svg');
   font-weight: normal;
   font-style: normal;
-
 }
 #homecontent {
   margin-left: 160px;
+  margin-top: 100px;
 }
 
 .name {
@@ -120,4 +120,33 @@
   text-align: center;
   margin-top: 0;
   text-decoration: none !important;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 720px) {
+  #homecontent {
+   margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #homecontent {
+    margin-top: 70px;
+  }
+  .name {
+   font-size: 36px;
+  }
+  #homename {
+    margin-left: -5px;
+  }
+  #tagline {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .name {
+    font-size: 28px
+  }
+  #tagline {
+  font-size: 12px;
+  }
 }
