@@ -58,6 +58,9 @@ html {
 #bottomcolumn {
     padding-bottom: 10px;
 }
+#oldcontent {
+    margin-bottom: 30px;
+}
 
 .pastimages {
     width: 245px;
