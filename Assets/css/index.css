@@ -127,6 +127,13 @@
   #homecontent {
    margin-left: 30px;
   }
+  #resumeimage {
+    width: 90%;
+    height: initial;
+  }
+  .download {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 425px) {
   #homecontent {
@@ -140,6 +147,9 @@
   }
   #tagline {
     font-size: 16px;
+  }
+  .downloadtext {
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 320px) {
