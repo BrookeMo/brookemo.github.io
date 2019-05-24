@@ -4,26 +4,87 @@
   justify-content: center;
   margin: 30px 200px;
 }
+
 .contactdiv {
   flex: 20%;
 }
+
 .iconcircle {
   border-radius: 50%;
-    border: solid black 4px;
-    height: 150px;
-    width: 150px;
-    margin: auto;
+  border: solid black 4px;
+  height: 150px;
+  width: 150px;
+  margin: auto;
 }
+
 .iconsvg {
   display: block;
   height: 85px;
   margin: auto;
   padding-top: 30px;
 }
+
 .icontitle {
   text-align: center;
-    font-family: 'frontageregular';
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 25px
+  font-family: 'frontageregular';
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 25px
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1000px) {
+  .contactcontent {
+    margin: 30px 100px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .contactcontent {
+    margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 622px) {
+  .name {
+    font-size: 48px;
+  }
+
+  .iconcircle {
+    height: 100px;
+    width: 100px;
+  }
+
+  .iconsvg {
+    height: 50px;
+    padding-top: 25px;
+  }
+
+  .icontitle {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .contactcontent {
+    margin: 30px 10px;
+  }
+
+  .iconsvg {
+    height: 40px;
+    padding-top: 20px;
+  }
+
+  .iconcircle {
+    height: 80px;
+    width: 80px;
+  }
+
+  .icontitle {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 28px;
+  }
 }
